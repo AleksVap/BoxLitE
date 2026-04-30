@@ -1,0 +1,9 @@
+{
+  "exp_name": "F_v3",
+  "dataset": "F_v3",
+  "dimensionality": 32,
+  "lambda_1": 0.003,
+  "lambda_2": 0.1,
+  "lambda_3": 0.003,
+  "s_omega": 1
+}
