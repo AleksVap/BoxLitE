@@ -8,7 +8,7 @@ import cvxpy as cp
 from cvxpy import mixed_norm
 from scipy.sparse import csc_array
 from tqdm import tqdm
-import FamilyDataLoader
+import Family_Data_Loader
 import Utils
 from Utils import S_OMEGA, epsilon
 from DL_Lite_Model.Neg_Concept import Neg_Concept
@@ -24,7 +24,7 @@ matplotlib.use('TkAgg')
 
 def loadDataset(dataset, evaluation_mode='Train'):
     if dataset[0:3] == 'F_v':
-        data, concepts, roles, individuals, concept_paths, concept_relations, role_relations = FamilyDataLoader.loadData(
+        data, concepts, roles, individuals, concept_paths, concept_relations, role_relations = Family_Data_Loader.loadData(
             dataset=dataset,
             evaluation_mode=evaluation_mode)
     else:

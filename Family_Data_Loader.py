@@ -2,7 +2,7 @@ from DL_Lite_Model.Atomic_Concept import Atomic_Concept
 from DL_Lite_Model.Atomic_Role import Atomic_Role
 from DL_Lite_Model.Existential_Concept import Existential_Concept
 from DL_Lite_Model.Inverse_Role import Inverse_Role
-from LoaderUtils import loadFilterAssertions, loadDataFromFile, loadIndividuals
+from Loader_Utils import loadFilterAssertions, loadDataFromFile, loadIndividuals
 from load_relation_dictionaries import get_role_concept_relations
 
 
