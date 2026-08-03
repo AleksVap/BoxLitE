@@ -113,5 +113,5 @@ Both this project and PyKEEN are released under the MIT License.
 
 Copyright (c) 2026 Aleksandar Pavlović
 
-## References
+# References
 [Imenes et al., 2023] Anders Imenes, Ricardo Guimaraes, and Ana Ozaki. Marrying Query Rewriting and Knowledge Graph Embeddings. In RuleML+RR, pages 126-140, Berlin, Heidelberg, 2023. Springer-Verlag
